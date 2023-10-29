@@ -13,7 +13,7 @@ app.get('', (req, res) => {
     res.send('API works!');
 });
 
-const mongoUrl = 'mongodb+srv://temp_user:psw1234@cluster0.piewcnx.mongodb.net/todos?retryWrites=true&w=majority';
+const mongoUrl = 'mongodb+srv://admin:chNsTuwpj3tz0k6f@cluster0.xqb7jos.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(mongoUrl).then(client=> {
     app.listen(3000, ()=>{
